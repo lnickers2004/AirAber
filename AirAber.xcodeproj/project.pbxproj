@@ -13,6 +13,7 @@
 		73C6B5C41BF2CCEB0035F72A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C6B5C31BF2CCEB0035F72A /* ExtensionDelegate.swift */; };
 		73C6B5C61BF2CCEB0035F72A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C6B5C51BF2CCEB0035F72A /* Assets.xcassets */; };
 		73C6B5CA1BF2CCEB0035F72A /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 73C6B5B01BF2CCEA0035F72A /* Watch.app */; };
+		73C6B5D21BF2D22A0035F72A /* Flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA27C1B724A7400B1E765 /* Flights.json */; };
 		7B8FA23D1B72275A00B1E765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA23C1B72275A00B1E765 /* AppDelegate.swift */; };
 		7B8FA23F1B72275A00B1E765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA23E1B72275A00B1E765 /* ViewController.swift */; };
 		7B8FA2421B72275A00B1E765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA2401B72275A00B1E765 /* Main.storyboard */; };
@@ -301,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73C6B5C61BF2CCEB0035F72A /* Assets.xcassets in Resources */,
+				73C6B5D21BF2D22A0035F72A /* Flights.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +556,7 @@
 				73C6B5CE1BF2CCEB0035F72A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73C6B5D11BF2CCEB0035F72A /* Build configuration list for PBXNativeTarget "Watch" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +565,7 @@
 				73C6B5CC1BF2CCEB0035F72A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B8FA2341B72275A00B1E765 /* Build configuration list for PBXProject "AirAber" */ = {
 			isa = XCConfigurationList;
