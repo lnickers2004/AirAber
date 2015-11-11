@@ -8,11 +8,11 @@
         <!--Flight-->
         <scene sceneID="gRg-cl-Xdq">
             <objects>
-                <controller identifier="Flight" hidesWhenLoading="NO" id="MB0-j9-Izy">
+                <controller identifier="Flight" hidesWhenLoading="NO" id="MB0-j9-Izy" customClass="FlightInterfaceController" customModule="Watch_Extension">
                     <items>
                         <group width="1" alignment="left" id="fGD-8A-bdX">
                             <items>
-                                <imageView width="40" height="40" alignment="left" image="Logo" id="Q70-xQ-IiE"/>
+                                <imageView width="40" height="40" alignment="left" alpha="0.90000000000000002" image="Logo" id="Q70-xQ-IiE"/>
                                 <group alignment="left" layout="vertical" spacing="0.0" id="675-4a-nbS">
                                     <items>
                                         <label alignment="left" text="Flight 123" id="t0i-rL-Fwh">
@@ -43,6 +43,15 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="boardTimeLabel" destination="2nx-dz-Rd1" id="pA7-dD-O9x"/>
+                        <outlet property="boardingLabel" destination="caB-SP-mSw" id="uK5-be-oBa"/>
+                        <outlet property="flightLabel" destination="t0i-rL-Fwh" id="4do-Hf-IOb"/>
+                        <outlet property="gateLabel" destination="3SC-1y-713" id="RjC-T0-qZ5"/>
+                        <outlet property="routeLabel" destination="qf5-QJ-nP3" id="hCm-g2-J4h"/>
+                        <outlet property="seatLabel" destination="9mq-PF-6m2" id="5AW-Vq-Zp9"/>
+                        <outlet property="statusLabel" destination="QcL-Xu-c0F" id="p2H-fY-QSM"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="141" y="270"/>

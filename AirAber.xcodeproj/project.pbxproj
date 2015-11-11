@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D07A16EA85C35D78CFE53FB /* FlightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D07ACCBAB4A8CE3FA72D289 /* FlightInterfaceController.swift */; };
+		731AD2331BF31F0B0005AF6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C6B5B51BF2CCEA0035F72A /* Assets.xcassets */; };
 		73C6B5B41BF2CCEA0035F72A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C6B5B21BF2CCEA0035F72A /* Interface.storyboard */; };
 		73C6B5B61BF2CCEA0035F72A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C6B5B51BF2CCEA0035F72A /* Assets.xcassets */; };
 		73C6B5BD1BF2CCEB0035F72A /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 73C6B5BC1BF2CCEB0035F72A /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -14,6 +16,7 @@
 		73C6B5C61BF2CCEB0035F72A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C6B5C51BF2CCEB0035F72A /* Assets.xcassets */; };
 		73C6B5CA1BF2CCEB0035F72A /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 73C6B5B01BF2CCEA0035F72A /* Watch.app */; };
 		73C6B5D21BF2D22A0035F72A /* Flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA27C1B724A7400B1E765 /* Flights.json */; };
+		73E713171BF2F772005B8937 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA27F1B724A9900B1E765 /* Flight.swift */; };
 		7B8FA23D1B72275A00B1E765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA23C1B72275A00B1E765 /* AppDelegate.swift */; };
 		7B8FA23F1B72275A00B1E765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA23E1B72275A00B1E765 /* ViewController.swift */; };
 		7B8FA2421B72275A00B1E765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B8FA2401B72275A00B1E765 /* Main.storyboard */; };
@@ -69,6 +72,7 @@
 
 /* Begin PBXFileReference section */
 		5D07A8DCD2C671EBCEDFCB42 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5D07ACCBAB4A8CE3FA72D289 /* FlightInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightInterfaceController.swift; sourceTree = "<group>"; };
 		73C6B5B01BF2CCEA0035F72A /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C6B5B31BF2CCEA0035F72A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		73C6B5B51BF2CCEA0035F72A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -124,6 +128,7 @@
 				73C6B5C31BF2CCEB0035F72A /* ExtensionDelegate.swift */,
 				73C6B5C51BF2CCEB0035F72A /* Assets.xcassets */,
 				73C6B5C71BF2CCEB0035F72A /* Info.plist */,
+				5D07ACCBAB4A8CE3FA72D289 /* FlightInterfaceController.swift */,
 			);
 			path = "Watch Extension";
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 				TargetAttributes = {
 					73C6B5AF1BF2CCEA0035F72A = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7R57VS437T;
 					};
 					73C6B5BB1BF2CCEB0035F72A = {
 						CreatedOnToolsVersion = 7.1;
@@ -302,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73C6B5C61BF2CCEB0035F72A /* Assets.xcassets in Resources */,
+				731AD2331BF31F0B0005AF6C /* Assets.xcassets in Resources */,
 				73C6B5D21BF2D22A0035F72A /* Flights.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,7 +331,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E713171BF2F772005B8937 /* Flight.swift in Sources */,
 				73C6B5C41BF2CCEB0035F72A /* ExtensionDelegate.swift in Sources */,
+				5D07A16EA85C35D78CFE53FB /* FlightInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,11 +396,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				IBSC_MODULE = Watch_Extension;
 				INFOPLIST_FILE = Watch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.micpringle.AirAber.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -403,11 +417,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				IBSC_MODULE = Watch_Extension;
 				INFOPLIST_FILE = Watch/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = com.micpringle.AirAber.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -418,10 +437,14 @@
 		73C6B5CD1BF2CCEB0035F72A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = "Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.micpringle.AirAber.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -432,10 +455,14 @@
 		73C6B5CE1BF2CCEB0035F72A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				INFOPLIST_FILE = "Watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.micpringle.AirAber.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -460,7 +487,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -482,6 +510,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c89d835b-a06c-4545-8464-7810a8bd2c7f";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -504,7 +533,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -519,6 +549,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "c89d835b-a06c-4545-8464-7810a8bd2c7f";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -528,10 +559,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
 				INFOPLIST_FILE = AirAber/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.micpringle.AirAber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -539,10 +572,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lawrence Nickerson (G79B3H8P4B)";
 				INFOPLIST_FILE = AirAber/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.micpringle.AirAber;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
