@@ -10,7 +10,6 @@
 		73C6B5B41BF2CCEA0035F72A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C6B5B21BF2CCEA0035F72A /* Interface.storyboard */; };
 		73C6B5B61BF2CCEA0035F72A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C6B5B51BF2CCEA0035F72A /* Assets.xcassets */; };
 		73C6B5BD1BF2CCEB0035F72A /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 73C6B5BC1BF2CCEB0035F72A /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		73C6B5C21BF2CCEB0035F72A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C6B5C11BF2CCEB0035F72A /* InterfaceController.swift */; };
 		73C6B5C41BF2CCEB0035F72A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C6B5C31BF2CCEB0035F72A /* ExtensionDelegate.swift */; };
 		73C6B5C61BF2CCEB0035F72A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C6B5C51BF2CCEB0035F72A /* Assets.xcassets */; };
 		73C6B5CA1BF2CCEB0035F72A /* Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 73C6B5B01BF2CCEA0035F72A /* Watch.app */; };
@@ -74,7 +73,6 @@
 		73C6B5B51BF2CCEA0035F72A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73C6B5B71BF2CCEA0035F72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73C6B5BC1BF2CCEB0035F72A /* Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		73C6B5C11BF2CCEB0035F72A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		73C6B5C31BF2CCEB0035F72A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		73C6B5C51BF2CCEB0035F72A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73C6B5C71BF2CCEB0035F72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 		73C6B5C01BF2CCEB0035F72A /* Watch Extension */ = {
 			isa = PBXGroup;
 			children = (
-				73C6B5C11BF2CCEB0035F72A /* InterfaceController.swift */,
 				73C6B5C31BF2CCEB0035F72A /* ExtensionDelegate.swift */,
 				73C6B5C51BF2CCEB0035F72A /* Assets.xcassets */,
 				73C6B5C71BF2CCEB0035F72A /* Info.plist */,
@@ -326,7 +323,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				73C6B5C41BF2CCEB0035F72A /* ExtensionDelegate.swift in Sources */,
-				73C6B5C21BF2CCEB0035F72A /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
