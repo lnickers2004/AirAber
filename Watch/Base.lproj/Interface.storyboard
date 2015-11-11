@@ -1,8 +1,51 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MB0-j9-Izy">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9019"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Flight-->
+        <scene sceneID="gRg-cl-Xdq">
+            <objects>
+                <controller identifier="Flight" hidesWhenLoading="NO" id="MB0-j9-Izy">
+                    <items>
+                        <group width="1" alignment="left" id="fGD-8A-bdX">
+                            <items>
+                                <imageView width="40" height="40" alignment="left" image="Logo" id="Q70-xQ-IiE"/>
+                                <group alignment="left" layout="vertical" spacing="0.0" id="675-4a-nbS">
+                                    <items>
+                                        <label alignment="left" text="Flight 123" id="t0i-rL-Fwh">
+                                            <color key="textColor" red="1" green="0.0" blue="0.054901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label alignment="left" text="JFK to ABIA" id="qf5-QJ-nP3"/>
+                                    </items>
+                                </group>
+                            </items>
+                            <edgeInsets key="margins" left="0.0" right="0.0" top="6" bottom="0.0"/>
+                        </group>
+                        <group width="1" alignment="left" layout="vertical" id="XeO-GP-VrC">
+                            <items>
+                                <label alignment="left" text="AA123 Boards" id="caB-SP-mSw"/>
+                                <label height="44" alignment="left" text="15:06" id="2nx-dz-Rd1">
+                                    <color key="textColor" red="1" green="0.0" blue="0.054901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" type="system" pointSize="54"/>
+                                </label>
+                                <label alignment="left" text="On time" id="QcL-Xu-c0F">
+                                    <color key="textColor" red="0.015686274509803921" green="0.87058823529411766" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
+                                </label>
+                                <group width="1" alignment="left" id="J3m-LX-VXB">
+                                    <items>
+                                        <label alignment="left" text="Gate 1A" id="3SC-1y-713"/>
+                                        <label alignment="right" text="Seat 64A" id="9mq-PF-6m2"/>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="141" y="270"/>
+        </scene>
+    </scenes>
 </document>
