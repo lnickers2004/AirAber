@@ -2,25 +2,39 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Asterisk_80x80_logo.png",
+      "filename" : "Asterisk_80x80_logo-6.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Asterisk_80x80_logo-1.png",
+      "filename" : "Asterisk_80x80_logo-5.jpg",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Asterisk_80x80_logo-2.png",
+      "filename" : "Asterisk_80x80_logo-4.jpg",
       "scale" : "3x"
+    },
+    {
+      "idiom" : "watch",
+      "filename" : "Asterisk_80x80_logo-3.jpg",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "watch",
+      "filename" : "Asterisk_80x80_logo-2.jpg",
+      "screen-width" : "<=145",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "watch",
+      "filename" : "Asterisk_80x80_logo-1.jpg",
+      "screen-width" : ">145",
+      "scale" : "2x"
     }
   ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
-  },
-  "properties" : {
-    "template-rendering-intent" : "template"
   }
 }
