@@ -8,9 +8,9 @@
         <!--Air Aber-->
         <scene sceneID="eQj-Tk-o3L">
             <objects>
-                <controller identifier="Schedule" title="Air Aber" backgroundImage="UfoImageSet" id="xTK-c6-G3B" customClass="ScheduleInterfaceController" customModule="Watch_Extension">
+                <controller identifier="Schedule" title="Air Aber" id="xTK-c6-G3B" customClass="ScheduleInterfaceController" customModule="Watch_Extension">
                     <items>
-                        <table alignment="left" id="l9h-LH-F59">
+                        <table alignment="center" spacing="6" id="l9h-LH-F59">
                             <items>
                                 <tableRow identifier=" FlightRow" id="niz-QK-LYb">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="Kkg-03-u1v">
@@ -53,10 +53,8 @@
                             </items>
                         </table>
                     </items>
-                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>
                         <outlet property="flightsTable" destination="l9h-LH-F59" id="3rm-be-THu"/>
-                        <segue destination="MB0-j9-Izy" kind="relationship" relationship="nextPage" id="IXe-Gb-yZc"/>
                     </connections>
                 </controller>
             </objects>
