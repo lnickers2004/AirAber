@@ -10,6 +10,7 @@
 		5D07A16EA85C35D78CFE53FB /* FlightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D07ACCBAB4A8CE3FA72D289 /* FlightInterfaceController.swift */; };
 		737ED76C1BF42D7900FEC808 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737ED76B1BF42D7900FEC808 /* Images.xcassets */; };
 		738376EE1BF578200034C722 /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738376ED1BF578200034C722 /* ScheduleInterfaceController.swift */; };
+		738376F01BF589510034C722 /* FlightRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738376EF1BF589510034C722 /* FlightRowController.swift */; };
 		73C6B5B41BF2CCEA0035F72A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C6B5B21BF2CCEA0035F72A /* Interface.storyboard */; };
 		73C6B5BD1BF2CCEB0035F72A /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 73C6B5BC1BF2CCEB0035F72A /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		73C6B5C41BF2CCEB0035F72A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C6B5C31BF2CCEB0035F72A /* ExtensionDelegate.swift */; };
@@ -75,6 +76,7 @@
 		5D07ACCBAB4A8CE3FA72D289 /* FlightInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightInterfaceController.swift; sourceTree = "<group>"; };
 		737ED76B1BF42D7900FEC808 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		738376ED1BF578200034C722 /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
+		738376EF1BF589510034C722 /* FlightRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightRowController.swift; sourceTree = "<group>"; };
 		73C6B5B01BF2CCEA0035F72A /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C6B5B31BF2CCEA0035F72A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		73C6B5B71BF2CCEA0035F72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				73C6B5C71BF2CCEB0035F72A /* Info.plist */,
 				5D07ACCBAB4A8CE3FA72D289 /* FlightInterfaceController.swift */,
 				738376ED1BF578200034C722 /* ScheduleInterfaceController.swift */,
+				738376EF1BF589510034C722 /* FlightRowController.swift */,
 			);
 			path = "Watch Extension";
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				73E713171BF2F772005B8937 /* Flight.swift in Sources */,
 				73C6B5C41BF2CCEB0035F72A /* ExtensionDelegate.swift in Sources */,
 				738376EE1BF578200034C722 /* ScheduleInterfaceController.swift in Sources */,
+				738376F01BF589510034C722 /* FlightRowController.swift in Sources */,
 				5D07A16EA85C35D78CFE53FB /* FlightInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
