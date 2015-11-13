@@ -12,7 +12,7 @@
                     <items>
                         <table alignment="center" spacing="6" id="l9h-LH-F59">
                             <items>
-                                <tableRow identifier=" FlightRow" id="niz-QK-LYb">
+                                <tableRow identifier=" FlightRow" id="niz-QK-LYb" customClass="FlightRowController" customModule="Watch_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="Kkg-03-u1v">
                                         <items>
                                             <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="SO5-3B-J3Y">
@@ -49,12 +49,20 @@
                                             </group>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <outlet property="destinationLabel" destination="SNv-uq-5vD" id="JNu-C8-xCY"/>
+                                        <outlet property="flightNumberLabel" destination="Gtv-Xx-w5t" id="wlq-Rq-trq"/>
+                                        <outlet property="originLabel" destination="n5E-b8-EQF" id="ixa-Lk-o5I"/>
+                                        <outlet property="planeImage" destination="Ejc-IY-YpZ" id="yzj-Ya-3t4"/>
+                                        <outlet property="separator" destination="SO5-3B-J3Y" id="THf-7j-D4O"/>
+                                        <outlet property="statusLabel" destination="2hH-iF-a5f" id="Vf4-vc-elY"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>
                     </items>
                     <connections>
-                        <outlet property="flightsTable" destination="l9h-LH-F59" id="3rm-be-THu"/>
+                        <outlet property="flightsTable" destination="l9h-LH-F59" id="VhF-aH-nao"/>
                     </connections>
                 </controller>
             </objects>
