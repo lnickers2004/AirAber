@@ -17,5 +17,24 @@ class FlightRowController: NSObject {
     @IBOutlet var statusLabel: WKInterfaceLabel!
     @IBOutlet var planeImage: WKInterfaceImage!
     
-    
+    // 1
+    var flight: Flight? {
+        // 2
+        didSet {
+            // 3
+            if let flight = flight {
+                // 4
+                originLabel.setText(flight.origin)
+                destinationLabel.setText(flight.destination)
+                flightNumberLabel.setText(flight.number)
+                // 5
+                if flight.onSchedule {
+                    statusLabel.setText("On Time")
+                } else {
+                    statusLabel.setText("Delayed")
+                    statusLabel.setTextColor(UIColor.redColor())
+                }
+            }
+        }
+    }
 }
