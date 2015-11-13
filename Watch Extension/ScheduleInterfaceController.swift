@@ -26,5 +26,10 @@ class ScheduleInterfaceController: WKInterfaceController {
         // flights. The number of rows is equal to the size of the array, and the row type
         // is the identifier you set in the storyboard
         flightsTable.setNumberOfRows(flights.count, withRowType: "FlightRow")
+        NSLog("There are \(flights.count) flights.")
+        
+        for flight in flights {
+            NSLog("destination: \(flight.destination)")
+        }
     }
 }
