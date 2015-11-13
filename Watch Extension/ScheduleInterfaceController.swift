@@ -19,5 +19,12 @@ class ScheduleInterfaceController: WKInterfaceController {
     // with data from the Flight Service
     var flights = Flight.allFlights()
     
-    
+    override func awakeWithContext(context: AnyObject?) {
+        super.awakeWithContext(context)
+        
+        // create an instance of the row you just built in Interface Builder for each flight in
+        // flights. The number of rows is equal to the size of the array, and the row type
+        // is the identifier you set in the storyboard
+        flightsTable.setNumberOfRows(flights.count, withRowType: "FlightRow")
+    }
 }
