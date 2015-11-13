@@ -14,4 +14,10 @@ class ScheduleInterfaceController: WKInterfaceController {
 
     @IBOutlet var flightsTable: WKInterfaceTable!
 
+    
+    // initialize the flights property
+    // with data from the Flight Service
+    var flights = Flight.allFlights()
+    
+    
 }
