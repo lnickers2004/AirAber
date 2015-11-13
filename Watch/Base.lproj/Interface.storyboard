@@ -5,42 +5,42 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9019"/>
     </dependencies>
     <scenes>
-        <!--Air Aber-->
+        <!--IBM Air-->
         <scene sceneID="eQj-Tk-o3L">
             <objects>
-                <controller identifier="Schedule" title="Air Aber" id="xTK-c6-G3B" customClass="ScheduleInterfaceController" customModule="Watch_Extension">
+                <controller identifier="Schedule" title="IBM Air" id="xTK-c6-G3B" customClass="ScheduleInterfaceController" customModule="Watch_Extension">
                     <items>
                         <table alignment="center" spacing="6" id="l9h-LH-F59">
                             <items>
-                                <tableRow identifier=" FlightRow" id="niz-QK-LYb" customClass="FlightRowController" customModule="Watch_Extension">
-                                    <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="Kkg-03-u1v">
+                                <tableRow identifier="FlightRowController" id="kLC-Be-Sy1" customClass="FlightRowController" customModule="Watch_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" spacing="0.0" id="1fH-Ke-eS5">
                                         <items>
-                                            <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="SO5-3B-J3Y">
+                                            <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="yAI-e7-t2c">
                                                 <color key="color" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="calibratedRGB"/>
                                             </separator>
-                                            <group alignment="left" layout="vertical" spacing="0.0" id="27b-hF-rbI">
+                                            <group alignment="left" layout="vertical" spacing="0.0" id="dfS-2U-Nim">
                                                 <items>
-                                                    <group width="1" height="32" alignment="left" spacing="4" id="97M-Ua-CbK">
+                                                    <group width="1" height="32" alignment="left" spacing="4" id="kdf-Hg-uGp">
                                                         <items>
-                                                            <label alignment="left" verticalAlignment="center" text="MAN" id="n5E-b8-EQF">
+                                                            <label alignment="left" verticalAlignment="center" text="MAN" id="CnX-ph-qcH">
                                                                 <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
                                                             </label>
-                                                            <imageView width="24" height="20" alignment="left" verticalAlignment="center" image="Plane" id="Ejc-IY-YpZ">
+                                                            <imageView width="24" height="20" alignment="left" verticalAlignment="center" image="Plane" id="bcL-yL-HJm">
                                                                 <color key="tintColor" red="1" green="0.0" blue="0.054901960780000002" alpha="1" colorSpace="calibratedRGB"/>
                                                             </imageView>
-                                                            <label alignment="left" verticalAlignment="center" text="SFO" id="SNv-uq-5vD">
+                                                            <label alignment="left" verticalAlignment="center" text="SFO" id="Bo4-Pd-11Y">
                                                                 <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
                                                             </label>
                                                         </items>
                                                     </group>
-                                                    <group width="1" alignment="left" id="wla-D3-4DU">
+                                                    <group width="1" alignment="left" id="eku-mg-N67">
                                                         <items>
-                                                            <label alignment="left" verticalAlignment="bottom" text="AA123" id="Gtv-Xx-w5t">
+                                                            <label alignment="left" verticalAlignment="bottom" text="AA123" id="qzA-aT-m5T">
                                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                                 <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
                                                             </label>
-                                                            <label alignment="right" verticalAlignment="bottom" text="SFO" id="2hH-iF-a5f">
-                                                                <color key="textColor" red="0.015686274509803921" green="0.87058823529411766" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <label alignment="right" verticalAlignment="bottom" text="SFO" id="qEY-09-9aS">
+                                                                <color key="textColor" red="0.015686274510000001" green="0.87058823529999996" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
                                                             </label>
                                                         </items>
@@ -50,12 +50,12 @@
                                         </items>
                                     </group>
                                     <connections>
-                                        <outlet property="destinationLabel" destination="SNv-uq-5vD" id="JNu-C8-xCY"/>
-                                        <outlet property="flightNumberLabel" destination="Gtv-Xx-w5t" id="wlq-Rq-trq"/>
-                                        <outlet property="originLabel" destination="n5E-b8-EQF" id="ixa-Lk-o5I"/>
-                                        <outlet property="planeImage" destination="Ejc-IY-YpZ" id="yzj-Ya-3t4"/>
-                                        <outlet property="separator" destination="SO5-3B-J3Y" id="THf-7j-D4O"/>
-                                        <outlet property="statusLabel" destination="2hH-iF-a5f" id="Vf4-vc-elY"/>
+                                        <outlet property="destinationLabel" destination="Bo4-Pd-11Y" id="ZSQ-LX-fww"/>
+                                        <outlet property="flightNumberLabel" destination="qzA-aT-m5T" id="NtJ-ml-YaT"/>
+                                        <outlet property="originLabel" destination="CnX-ph-qcH" id="bUY-qI-Ohl"/>
+                                        <outlet property="planeImage" destination="bcL-yL-HJm" id="Ofq-EW-N5d"/>
+                                        <outlet property="separator" destination="yAI-e7-t2c" id="l9g-li-VxI"/>
+                                        <outlet property="statusLabel" destination="qEY-09-9aS" id="O0U-cV-Ikn"/>
                                     </connections>
                                 </tableRow>
                             </items>
@@ -63,10 +63,11 @@
                     </items>
                     <connections>
                         <outlet property="flightsTable" destination="l9h-LH-F59" id="VhF-aH-nao"/>
+                        <segue destination="MB0-j9-Izy" kind="relationship" relationship="nextPage" id="yGQ-YN-uuR"/>
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-36" y="262"/>
+            <point key="canvasLocation" x="-39" y="262"/>
         </scene>
         <!--Flight-->
         <scene sceneID="gRg-cl-Xdq">
@@ -75,7 +76,7 @@
                     <items>
                         <group width="1" alignment="left" id="fGD-8A-bdX">
                             <items>
-                                <imageView width="40" height="40" alignment="left" image="UfoOnWhiteImageSet" id="Q70-xQ-IiE"/>
+                                <imageView width="40" height="40" alignment="left" image="Plane" id="Q70-xQ-IiE"/>
                                 <group alignment="left" layout="vertical" spacing="0.0" id="675-4a-nbS">
                                     <items>
                                         <label alignment="left" text="Flight 123" id="t0i-rL-Fwh">
