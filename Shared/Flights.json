@@ -1,104 +1,104 @@
 [
   {
-    "origin": "YO",
+    "origin": "ABIA",
     "destination": "SFO",
     "number": "AA100",
     "delayed": "no",
     "gate": "1A"
   },
   {
-    "origin": "ABA",
+    "origin": "ABIA",
     "destination": "JFK",
     "number": "AA101",
     "delayed": "yes",
     "gate": "1B"
   },
   {
-    "origin": "ABA",
+    "origin": "ABIA",
     "destination": "LAS",
     "number": "AA102",
     "delayed": "no",
     "gate": "1C"
   },
   {
-    "origin": "ABA",
+    "origin": "ABIA",
     "destination": "IAD",
     "number": "AA103",
     "delayed": "no",
     "gate": "1D"
   },
   {
-    "origin": "ABA",
+    "origin": "ABIA",
     "destination": "BCN",
     "number": "AA104",
     "delayed": "no",
     "gate": "2A"
   },
   {
-    "origin": "ABA",
+    "origin": "ABIA",
     "destination": "SYD",
     "number": "AA105",
     "delayed": "yes",
     "gate": "2B"
   },
   {
-    "origin": "ABA",
+    "origin": "ABIA",
     "destination": "CDG",
     "number": "AA106",
     "delayed": "no",
     "gate": "2B"
   },
   {
-    "origin": "ABA",
+    "origin": "ABIA",
     "destination": "PER",
     "number": "AA107",
     "delayed": "no",
     "gate": "2C"
   },
   {
-    "origin": "ABA",
+    "origin": "ABIA",
     "destination": "DXB",
     "number": "AA108",
     "delayed": "no",
     "gate": "2D"
   },
   {
-    "origin": "ABA",
+    "origin": "ABIA",
     "destination": "HND",
     "number": "AA109",
     "delayed": "no",
     "gate": "3A"
   },
   {
-    "origin": "ABA",
+    "origin": "ABIA",
     "destination": "HKG",
     "number": "AA110",
     "delayed": "yes",
     "gate": "3B"
   },
   {
-    "origin": "ABA",
+    "origin": "ABIA",
     "destination": "SIN",
     "number": "AA111",
     "delayed": "no",
     "gate": "3C"
   },
   {
-    "origin": "ABA",
+    "origin": "ABIA",
     "destination": "MAD",
     "number": "AA112",
     "delayed": "no",
     "gate": "3D"
   },
   {
-    "origin": "ABA",
+    "origin": "ABIA",
     "destination": "KUL",
     "number": "AA113",
     "delayed": "no",
     "gate": "4A"
   },
   {
-    "origin": "ABA",
+    "origin": "ABIA",
     "destination": "LHR",
     "number": "AA114",
     "delayed": "yes",
