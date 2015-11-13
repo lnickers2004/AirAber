@@ -55,7 +55,7 @@
                     </items>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     <connections>
-                        <outlet property="flightsTable" destination="l9h-LH-F59" id="JBF-WC-RLD"/>
+                        <outlet property="flightsTable" destination="l9h-LH-F59" id="3rm-be-THu"/>
                         <segue destination="MB0-j9-Izy" kind="relationship" relationship="nextPage" id="IXe-Gb-yZc"/>
                     </connections>
                 </controller>
